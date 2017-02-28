@@ -9,8 +9,6 @@ Basically we apply Multinomial Naive Bayes model to classify each file.
 The classifier requires the input data to be a dict, whose key is class name and value a list,
 a list of doc names under this class.
 
-Please put the "Fixed Judgements" file (YAN_JIAJIE_script.zip), "Interview_Mapping.csv" (YAN_JIAJIE_script.csv) and "stopwords.txt" (YAN_JIAJIE_script.txt) at the same
-directory with the py file (YAN_JIAJIE_script.py) .
 '''
 
 class NaiveBayesClassifier():
@@ -20,7 +18,7 @@ class NaiveBayesClassifier():
         self.stopwords = open("stopwords.txt","r").read().split()
       
     def text_tokenizer(self,doc):
-        return [word.lower() for word in re.compile(r'\W+').split(open("Fixed Judgements/"+doc+".txt","r").read()) 
+        return [word.lower() for word in re.compile(r'\W+').split(open(doc+".txt","r").read()) 
                 if word.isalpha() if word.lower() not in self.stopwords if word not in string.letters]
     
     def get_tag_token_list(self,tag): # this is a token_list of each tag/class
