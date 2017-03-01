@@ -31,5 +31,5 @@ def predict():
     return result_dict 
 
 if __name__ == "__main__":
+    evaluate()
     predict()
-    input()
