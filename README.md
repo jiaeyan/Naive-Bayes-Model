@@ -1,7 +1,4 @@
-# naive_bayes_text_classifier
+# Naive Bayes Model
 
-A classic naive bayes text classifier with add-1 smoothing.
+A Multinomial/Bernoulli Naive Bayes classifier with add-0.01 smoothing, implemented with Numpy matrix techniques.
 
-Basically we apply Multinomial Naive Bayes model to classify each input file.
-
-The classifier requires the input data to be a dict (as csv form), whose key is class name and value a list, a list of doc names under this class.
