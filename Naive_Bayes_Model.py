@@ -23,7 +23,7 @@ class NaiveBayes():
     def count(self, data, P, MLE):
         '''Fill in the matrices and normalize.
            P: prior dict of class
-           MLE: maximum likelihood estimation of feature
+           MLE: maximum likelihood estimation of features
         '''
         for d in data:
             c = d.label
