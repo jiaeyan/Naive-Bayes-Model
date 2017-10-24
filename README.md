@@ -3,10 +3,12 @@
 A Multinomial/Bernoulli Naive Bayes classifier with add-0.01 smoothing, implemented with Numpy matrix techniques.
 
 ■ The Prior probability matrix, shape = 1 * len(C):
+
 c1|c2|c3|...|Cn
 0.1
 
 ■ The MLE matrix, shape = len(F) * len(C):
+
      c1 |c2|c3|...|cn
      
   f1 0.5
