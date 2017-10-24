@@ -8,11 +8,17 @@ c1|c2|c3|...|Cn
 
 ■ The MLE matrix, shape = len(F) * len(C):
      c1 |c2|c3|...|cn
+     
   f1 0.5
+  
   f2 0.1
+  
   f3 0.1
+  
   ...
+  
   fm 0.03
+  
 
 ■ The doc's feature vector, shape = 1 * len(d)
 
