@@ -1,6 +1,5 @@
 '''
 Created on April 20, 2017
-
 @author: jiajieyan
 '''
 import numpy as np
