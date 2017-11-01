@@ -2,6 +2,8 @@
 
 A Multinomial/Bernoulli Naive Bayes classifier with add-0.01 smoothing, implemented with Numpy matrix techniques.
 
+The model type could be defined in Document class.
+
 ■ The Prior probability matrix, shape = 1 * len(C):
 
 c1|c2|c3|...|Cn
